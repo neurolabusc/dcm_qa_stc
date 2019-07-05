@@ -54,6 +54,13 @@ For details see [Siemens](https://github.com/rordenlab/dcm2niix/tree/master/Siem
   * units: msec
   * version: (0018,1020) LO [syngo MR B17]
 
+* Siemens/D13
+  * source: https://www.mccauslandcenter.sc.edu/crnl/tools/stc
+  * slice timing: CSA Header (0029,1009) "MosaicRefAcqTimes"
+  * units: msec
+  * Note: Series 2 uses default Foot->Head mosaic, Series 10 stores Head->Foot mosaic. See source page for details.
+  * version: (0018,1020) LO [syngo MR D13D]
+
 * Siemens/E11
   * source: Development scan from McCausland Center
   * slice timing: CSA Header (0029,1009) "MosaicRefAcqTimes"
