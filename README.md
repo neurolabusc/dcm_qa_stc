@@ -7,19 +7,19 @@ dcm_qa_stc is a simple DICOM to NIfTI validator script and dataset to test [slic
 
 For details see [GE](https://github.com/rordenlab/dcm2niix/tree/master/GE) page.
 
-*GE/TriggerTime
+* GE/TriggerTime
   * source: https://www.nitrc.org/plugins/mwiki/index.php/dcm2nii:MainPage#Slice_timing_correction
   * slice timing: Trigger Time (0018,1060) "DS [187]"
   * units:
   * version: (0018,1020) LO [24\LX\MR Software release:DV24.0_R02_1607.b]
 
-*GE/RTIA
+* GE/RTIA
   * source: https://www.nitrc.org/plugins/mwiki/index.php/dcm2nii:MainPage#Slice_timing_correction
   * slice timing: RTIA Timer 0021,105E "DS [4.314800]"
   * units: seconds
   * version: (0018,1020) LO [24\LX\MR Software release:DV24.0_R02_1607.b]
 
-*GE/RTIAold
+* GE/RTIAold
   * source: https://www.nitrc.org/plugins/mwiki/index.php/dcm2nii:MainPage#Archival_MRI
   * slice timing: RTIA Timer 0021,105E "DS [23457.000000]"
   * units: 1/10,000 second
@@ -30,19 +30,19 @@ For details see [GE](https://github.com/rordenlab/dcm2niix/tree/master/GE) page.
 
 For details see [Siemens](https://github.com/rordenlab/dcm2niix/tree/master/Siemens) page.
 
-*Siemens/B12
+* Siemens/B12
   * source: https://www.nitrc.org/plugins/mwiki/index.php/dcm2nii:MainPage#Archival_MRI
   * slice timing: NONE: CSA Header present but does not include ""
   * units: NONE
   * version: (0018,1020) LO [syngo MR 2006T 4VB12T]
 
-*Siemens/B13
+* Siemens/B13
   * source: https://www.nitrc.org/plugins/mwiki/index.php/dcm2nii:MainPage#Archival_MRI
   * slice timing: NONE: CSA Header present but does not include ""
   * units: NONE
   * version: (0018,1020) LO [syngo MR B13 4VB13A]
 
-*Siemens/B15
+* Siemens/B15
   * source: https://www.nitrc.org/plugins/mwiki/index.php/dcm2nii:MainPage#Archival_MRI
   * slice timing: CSA Header (0029,1009) "MosaicRefAcqTimes"
   * units: msec
