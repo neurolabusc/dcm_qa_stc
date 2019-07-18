@@ -32,14 +32,14 @@ For details see [Siemens](https://github.com/rordenlab/dcm2niix/tree/master/Siem
 
 * Siemens/B12
   * source: https://www.nitrc.org/plugins/mwiki/index.php/dcm2nii:MainPage#Archival_MRI
-  * slice timing: CSA Header present but does not include "MosaicRefAcqTimes", slice times can be inferred from "sSliceArray.ucMode".
-  * units: NONE
+  * slice timing: CSA Header does not include "MosaicRefAcqTimes", slice times can be inferred from "sSliceArray.ucMode".
+  * units: NONE (inferred from TR and delayTimeInTR)
   * version: (0018,1020) LO [syngo MR 2006T 4VB12T]
 
 * Siemens/B13
   * source: https://www.nitrc.org/plugins/mwiki/index.php/dcm2nii:MainPage#Archival_MRI
-  * slice timing: NONE: CSA Header present but does not include "MosaicRefAcqTimes"
-  * units: NONE
+  * slice timing: CSA Header does not include "MosaicRefAcqTimes", slice times can be inferred from "sSliceArray.ucMode".
+  * units: NONE (inferred from TR and delayTimeInTR)
   * version: (0018,1020) LO [syngo MR B13 4VB13A]
 
 * Siemens/B15
