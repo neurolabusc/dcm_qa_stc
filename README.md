@@ -15,13 +15,13 @@ For details see [GE](https://github.com/rordenlab/dcm2niix/tree/master/GE) page.
 
 * GE/RTIA
   * source: https://www.nitrc.org/plugins/mwiki/index.php/dcm2nii:MainPage#Slice_timing_correction
-  * slice timing: RTIA Timer 0021,105E "DS [4.314800]"
+  * slice timing: RTIA Timer (0021,105E) "DS [4.314800]"
   * units: seconds
   * version: (0018,1020) LO [24\LX\MR Software release:DV24.0_R02_1607.b]
 
 * GE/RTIAold
   * source: https://www.nitrc.org/plugins/mwiki/index.php/dcm2nii:MainPage#Archival_MRI
-  * slice timing: RTIA Timer 0021,105E "DS [23457.000000]"
+  * slice timing: RTIA Timer (0021,105E) "DS [23457.000000]"
   * units: 1/10,000 second
   * note: https://github.com/rordenlab/dcm2niix/issues/286
   * version: (0018,1020) LO [14\LX\MR Software release:14.0_M4_0629.a]
@@ -32,13 +32,13 @@ For details see [Siemens](https://github.com/rordenlab/dcm2niix/tree/master/Siem
 
 * Siemens/B12
   * source: https://www.nitrc.org/plugins/mwiki/index.php/dcm2nii:MainPage#Archival_MRI
-  * slice timing: NONE: CSA Header present but does not include ""
+  * slice timing: CSA Header present but does not include "MosaicRefAcqTimes", slice times can be inferred from "sSliceArray.ucMode".
   * units: NONE
   * version: (0018,1020) LO [syngo MR 2006T 4VB12T]
 
 * Siemens/B13
   * source: https://www.nitrc.org/plugins/mwiki/index.php/dcm2nii:MainPage#Archival_MRI
-  * slice timing: NONE: CSA Header present but does not include ""
+  * slice timing: NONE: CSA Header present but does not include "MosaicRefAcqTimes"
   * units: NONE
   * version: (0018,1020) LO [syngo MR B13 4VB13A]
 
@@ -58,7 +58,7 @@ For details see [Siemens](https://github.com/rordenlab/dcm2niix/tree/master/Siem
   * source: https://www.mccauslandcenter.sc.edu/crnl/tools/stc
   * slice timing: CSA Header (0029,1009) "MosaicRefAcqTimes"
   * units: msec
-  * Note: Series 2 uses default Foot->Head mosaic, Series 10 stores Head->Foot mosaic. See source page for details.
+  * note: Series 2 uses default Foot->Head mosaic, Series 10 stores Head->Foot mosaic. See source page for details.
   * version: (0018,1020) LO [syngo MR D13D]
 
 * Siemens/E11
@@ -69,11 +69,12 @@ For details see [Siemens](https://github.com/rordenlab/dcm2niix/tree/master/Siem
 
 * Siemens/XA10
   * source: https://github.com/rordenlab/dcm2niix/issues/240
-  * slice timing: Time After Start "(0021,1104) DS [12.58] "
+  * slice timing: Time After Start (0021,1104) "DS [12.58]"
   * units: seconds
-  * slice timing: (0018,9074) DT [20181022083642.635000]
+  * note: (XA11 multi-band sequences can inaccurately report single-band values in 0021,1104)[https://github.com/rordenlab/dcm2niix/issues/303]
+  * slice timing: Frame Acquisition Time (0018,9074) "DT [20181022083642.635000]"
   * units: YYYYMMDDHHMMSS
-  * note: https://github.com/rordenlab/dcm2niix/issues/240
+  * note: (Siemens de-identification can scramble frame acquisition time)[https://github.com/rordenlab/dcm2niix/issues/240]
   * version: (0018,1020) LO [syngo MR XA10]
 
 ## UIH
@@ -82,6 +83,7 @@ For details see [UIH](https://github.com/rordenlab/dcm2niix/tree/master/UIH) pag
 
 * UIH/R002
   * source: https://github.com/rordenlab/dcm2niix/issues/225
-  * slice timing: AcquisitionTime (0008,0032) TM [134052.312000]
+  * slice timing: AcquisitionTime (0008,0032) "TM [134052.312000]"
   * units: HHMMSS
+  * note: must handle slice times across midnight
   * version: (0018,1020) LO [R002]
