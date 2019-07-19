@@ -7,10 +7,17 @@ dcm_qa_stc is a simple DICOM to NIfTI validator script and dataset to test [slic
 
 For details see [GE](https://github.com/rordenlab/dcm2niix/tree/master/GE) page.
 
+* GE/ProtocolDataBlock
+  * source: https://github.com/neurolabusc/dcm_qa_nih
+  * slice timing: Private Protocol Data Block (0025,101B) SLICEORDER tag
+  * units: inferred from SLICEORDER (0=sequential, 1=interleaved), number of slices and TR. Note GE does not report delays between volumes so this estimate will be inaccurate for sparse designs (where slice timing correction is inadvisable).
+  * note: four series provided: sequential and interleaved with inferior to superior and superior to inferior slice orders.
+  * version: (0018,1020) LO [27_LX_MR_Software_release:DV26.0_R01_1725.a]
+
 * GE/TriggerTime
   * source: https://www.nitrc.org/plugins/mwiki/index.php/dcm2nii:MainPage#Slice_timing_correction
   * slice timing: Trigger Time (0018,1060) "DS [187]"
-  * units:
+  * units: milliseconds
   * version: (0018,1020) LO [24\LX\MR Software release:DV24.0_R02_1607.b]
 
 * GE/RTIA
