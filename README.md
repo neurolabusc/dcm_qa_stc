@@ -72,7 +72,14 @@ For details see [Siemens](https://github.com/rordenlab/dcm2niix/tree/master/Siem
   * source: Development scan from McCausland Center
   * slice timing: CSA Header (0029,1009) "MosaicRefAcqTimes"
   * units: msec
-  * version: (0018,1020) LO [syngo MR B17]
+  * version: (0018,1020) LO [syngo MR E11]
+  
+* Siemens/E11_2D
+  * source: https://www.ndcn.ox.ac.uk/divisions/fmrib
+  * slice timing: Series 3 (saved as mosaics) CSA Header (0029,1009) "MosaicRefAcqTimes", Series 8 (saved as 2D slices) Acquisition Time (0008,0032) "TM [105723.300000]"
+  * units: msec, HHMMSS
+  * note: acquisition time must handle slice times across midnight
+  * version: (0018,1020) LO [syngo MR E11]
 
 * Siemens/XA10
   * source: https://github.com/rordenlab/dcm2niix/issues/240
