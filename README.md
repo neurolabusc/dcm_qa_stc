@@ -85,10 +85,10 @@ For details see [Siemens](https://github.com/rordenlab/dcm2niix/tree/master/Siem
   * source: https://github.com/rordenlab/dcm2niix/issues/240
   * slice timing: Time After Start (0021,1104) "DS [12.58]"
   * units: seconds
-  * note: (XA11 multi-band sequences can inaccurately report single-band values in 0021,1104)[https://github.com/rordenlab/dcm2niix/issues/303]
+  * note: [XA11 multi-band sequences can inaccurately report single-band values in 0021,1104](https://github.com/rordenlab/dcm2niix/issues/303)
   * slice timing: Frame Acquisition Time (0018,9074) "DT [20181022083642.635000]"
   * units: YYYYMMDDHHMMSS
-  * note: (Siemens de-identification can scramble frame acquisition time)[https://github.com/rordenlab/dcm2niix/issues/240]
+  * note: [Siemens de-identification can scramble frame acquisition time](https://github.com/rordenlab/dcm2niix/issues/240)
   * version: (0018,1020) LO [syngo MR XA10]
 
 ## UIH
