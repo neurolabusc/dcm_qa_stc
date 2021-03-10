@@ -13,7 +13,7 @@
 	"SoftwareVersions": "14\\LX\\MR Software release:14.0_M4_0629.a",
 	"MRAcquisitionType": "2D",
 	"SeriesDescription": "Zugfahrt",
-	"ProtocolName": "Zugfahrt",
+	"ProtocolName": "Zugfahrt test/4",
 	"ScanningSequence": "EP\\RM",
 	"SequenceVariant": "NONE",
 	"ScanOptions": "EPI_GEMS",
@@ -34,8 +34,8 @@
 	"AcquisitionMatrixPE": 64,
 	"ReconMatrixPE": 64,
 	"ParallelReductionFactorInPlane": 2,
-	"EffectiveEchoSpacing": 0.00064,
-	"TotalReadoutTime": 0.04032,
+	"EffectiveEchoSpacing": 0.000314921,
+	"TotalReadoutTime": 0.01984,
 	"PixelBandwidth": 7812.5,
 	"PhaseEncodingDirection": "j",
 	"SliceTiming": [
@@ -85,5 +85,5 @@
 		0	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20201030"
+	"ConversionSoftwareVersion": "v1.0.20210308"
 }
