@@ -48,7 +48,9 @@
 	"ReceiveCoilActiveElements": "HEA;HEP",
 	"PulseSequenceDetails": "%SiemensSeq%\\ep2d_bold",
 	"RefLinesPE": 24,
+	"CoilCombinationMethod": "Sum of Squares",
 	"ConsistencyInfo": "N4_VD13D_LATEST_20130810",
+	"MatrixCoilMode": "GRAPPA",
 	"PercentPhaseFOV": 100,
 	"PercentSampling": 100,
 	"EchoTrainLength": 31,
@@ -107,7 +109,8 @@
 		0,
 		0.987136,
 		-0.159881	],
+	"ImageOrientationText": "Tra>Cor(-9.2)",
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20210308"
+	"ConversionSoftwareVersion": "v1.0.20211006"
 }

@@ -42,6 +42,7 @@
 	"PhaseResolution": 1,
 	"ReceiveCoilName": "HeadMatrix",
 	"PulseSequenceDetails": "%SiemensSeq%\\ep2d_bold",
+	"MatrixCoilMode": "SENSE",
 	"PercentPhaseFOV": 100,
 	"PercentSampling": 100,
 	"PhaseEncodingSteps": 64,
@@ -94,5 +95,5 @@
 		0.0923706	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20210308"
+	"ConversionSoftwareVersion": "v1.0.20211006"
 }

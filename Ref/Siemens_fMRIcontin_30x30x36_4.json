@@ -45,6 +45,8 @@
 	"ReceiveCoilName": "HeadMatrix",
 	"CoilString": "C:HEA;HEP",
 	"PulseSequenceDetails": "%SiemensSeq%\\ep2d_bold",
+	"CoilCombinationMethod": "Adaptive Combine",
+	"MatrixCoilMode": "SENSE",
 	"PercentPhaseFOV": 100,
 	"PercentSampling": 100,
 	"PhaseEncodingSteps": 64,
@@ -101,7 +103,8 @@
 		0,
 		1,
 		0	],
+	"ImageOrientationText": "Tra>Sag(-3.2)",
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20210308"
+	"ConversionSoftwareVersion": "v1.0.20211006"
 }
