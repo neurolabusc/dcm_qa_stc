@@ -1,7 +1,7 @@
 {
 	"Modality": "MR",
 	"MagneticFieldStrength": 3,
-	"ImagingFrequency": 123.228,
+	"ImagingFrequency": 123.227722,
 	"Manufacturer": "Siemens",
 	"ManufacturersModelName": "Prisma",
 	"InstitutionName": "The John Radcliffe",
@@ -9,10 +9,11 @@
 	"InstitutionAddress": "Headley Way StreetNo,Oxford,District,GB,OX3 9DU",
 	"DeviceSerialNumber": "66050",
 	"StationName": "AWP66050",
-	"BodyPartExamined": "HEAD",
+	"BodyPart": "HEAD",
 	"PatientPosition": "HFS",
 	"SoftwareVersions": "syngo MR E11",
 	"MRAcquisitionType": "2D",
+	"StudyDescription": "FMRIB Developer^Daniel",
 	"SeriesDescription": "diff_mbep2d_1.5mm_AP_MB4_64DIR_B1500_BW1672",
 	"ProtocolName": "diff_mbep2d_1.5mm_AP_MB4_64DIR_B1500_BW1672",
 	"ScanningSequence": "EP",
@@ -20,6 +21,7 @@
 	"ScanOptions": "PFP\\FS",
 	"SequenceName": "ep_b5#1",
 	"ImageType": ["ORIGINAL", "PRIMARY", "DIFFUSION", "NONE", "MB", "ND", "MOSAIC"],
+	"NonlinearGradientCorrection": false,
 	"SeriesNumber": 3,
 	"AcquisitionTime": "10:41:55.177500",
 	"AcquisitionNumber": 1,
@@ -27,6 +29,10 @@
 	"SliceThickness": 1.5,
 	"SpacingBetweenSlices": 1.5,
 	"SAR": 0.159744,
+	"TablePosition": [
+		0,
+		0,
+		-0	],
 	"EchoTime": 0.0874,
 	"RepetitionTime": 3.58,
 	"FlipAngle": 80,
@@ -167,6 +173,7 @@
 		0	],
 	"ImageOrientationText": "Tra",
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
+	"BidsGuess": ["dwi","_acq-epb5m4_dir-AP_run-3_dwi"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20211006"
+	"ConversionSoftwareVersion": "v1.0.20260416"
 }
