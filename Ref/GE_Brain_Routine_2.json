@@ -6,6 +6,7 @@
 	"InternalPulseSequenceName": "EPI",
 	"ManufacturersModelName": "DISCOVERY MR750",
 	"InstitutionName": "Nottingham Medical School",
+	"InstitutionalDepartmentName": "None",
 	"DeviceSerialNumber": "00000000269MRS04",
 	"StationName": "MR01DV01",
 	"PatientPosition": "HFS",
@@ -17,8 +18,9 @@
 	"ProtocolName": "Brain: Routine",
 	"ScanningSequence": "EP\\GR",
 	"SequenceVariant": "SS",
+	"PulseSequenceType": "Gradient Echo EPI",
 	"ScanOptions": "SQPIX_GEMS\\EPI_GEMS",
-	"PulseSequenceName": "epiRT",
+	"SequenceName": "epiRT",
 	"ImageType": ["ORIGINAL", "PRIMARY", "EPI", "NONE", "MAGNITUDE"],
 	"SeriesNumber": 2,
 	"AcquisitionTime": "17:20:58.000000",
@@ -26,10 +28,6 @@
 	"SliceThickness": 3,
 	"SpacingBetweenSlices": 3.3,
 	"SAR": 0.0105914,
-	"TablePosition": [
-		0,
-		0,
-		3.11951e-09	],
 	"EchoTime": 0.0226,
 	"RepetitionTime": 1.5,
 	"FlipAngle": 70,
@@ -44,7 +42,10 @@
 	"PercentSampling": 100,
 	"AcquisitionMatrixPE": 64,
 	"ReconMatrixPE": 64,
+	"ParallelReductionFactorInPlane": 1,
+	"ParallelReductionFactorOutOfPlane": 1,
 	"EffectiveEchoSpacing": 0.000428,
+	"AcquisitionDuration": 24,
 	"TotalReadoutTime": 0.026964,
 	"PixelBandwidth": 7812.5,
 	"PhaseEncodingDirection": "j",
@@ -67,5 +68,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["func","_acq-EPI_dir-PA_run-2_bold"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }

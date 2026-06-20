@@ -5,6 +5,7 @@
 	"Manufacturer": "Siemens",
 	"ManufacturersModelName": "TrioTim",
 	"InstitutionName": "GSU/GT CABI",
+	"InstitutionalDepartmentName": "None",
 	"InstitutionAddress": "Marietta St. 831,Atlanta,Southeast,US,30318",
 	"DeviceSerialNumber": "35389",
 	"StationName": "MEDPC",
@@ -17,6 +18,7 @@
 	"ProtocolName": "ep2d_DTI_20_dir_AP",
 	"ScanningSequence": "EP",
 	"SequenceVariant": "SK\\SP",
+	"PulseSequenceType": "Gradient Echo EPI",
 	"ScanOptions": "PFP\\FS",
 	"SequenceName": "*ep_b0",
 	"ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC", "MAGNITUDE"],
@@ -63,6 +65,7 @@
 	"ReconMatrixPE": 102,
 	"BandwidthPerPixelPhaseEncode": 23.912,
 	"ParallelReductionFactorInPlane": 2,
+	"ParallelReductionFactorOutOfPlane": 1,
 	"EffectiveEchoSpacing": 0.00041,
 	"DerivedVendorReportedEchoSpacing": 0.00082,
 	"TotalReadoutTime": 0.04141,
@@ -141,5 +144,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["dwi","_acq-epb0p2_dir-AP_run-2_dwi"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }

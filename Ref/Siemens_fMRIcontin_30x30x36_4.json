@@ -5,6 +5,7 @@
 	"Manufacturer": "Siemens",
 	"ManufacturersModelName": "TrioTim",
 	"InstitutionName": "USC",
+	"InstitutionalDepartmentName": "None",
 	"InstitutionAddress": "Medical Center Dr5, Columbia-3628F0-, SC, US, 29203",
 	"DeviceSerialNumber": "35131",
 	"StationName": "MRC35131",
@@ -17,6 +18,7 @@
 	"ProtocolName": "fMRIcontin_30x30x36",
 	"ScanningSequence": "EP",
 	"SequenceVariant": "SK",
+	"PulseSequenceType": "Gradient Echo EPI",
 	"ScanOptions": "FS",
 	"SequenceName": "*epfid2d1_64",
 	"ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC", "MAGNITUDE"],
@@ -34,7 +36,6 @@
 	"EchoTime": 0.03,
 	"RepetitionTime": 2.2,
 	"FlipAngle": 90,
-	"PartialFourier": 1,
 	"BaseResolution": 64,
 	"ShimSetting": [
 		10685,
@@ -60,6 +61,8 @@
 	"AcquisitionMatrixPE": 64,
 	"ReconMatrixPE": 64,
 	"BandwidthPerPixelPhaseEncode": 30.637,
+	"ParallelReductionFactorInPlane": 1,
+	"ParallelReductionFactorOutOfPlane": 1,
 	"EffectiveEchoSpacing": 0.000510004,
 	"DerivedVendorReportedEchoSpacing": 0.000510004,
 	"TotalReadoutTime": 0.0321303,
@@ -114,5 +117,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["func","_acq-epfid2_dir-AP_run-4_bold"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }

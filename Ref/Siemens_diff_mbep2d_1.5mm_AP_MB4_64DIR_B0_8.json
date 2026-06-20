@@ -18,6 +18,7 @@
 	"ProtocolName": "diff_mbep2d_1.5mm_AP_MB4_64DIR_B0",
 	"ScanningSequence": "EP",
 	"SequenceVariant": "SK\\SS",
+	"PulseSequenceType": "Multiband Gradient Echo EPI",
 	"ScanOptions": "PFP\\FS",
 	"SequenceName": "ep_b5#1",
 	"ImageType": ["ORIGINAL", "PRIMARY", "DIFFUSION", "NONE", "MB", "ND"],
@@ -65,6 +66,8 @@
 	"AcquisitionMatrixPE": 148,
 	"ReconMatrixPE": 148,
 	"BandwidthPerPixelPhaseEncode": 9.653,
+	"ParallelReductionFactorInPlane": 1,
+	"ParallelReductionFactorOutOfPlane": 1,
 	"EffectiveEchoSpacing": 0.000699964,
 	"DerivedVendorReportedEchoSpacing": 0.000699964,
 	"TotalReadoutTime": 0.102895,
@@ -175,5 +178,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["dwi","_acq-epb5_dir-AP_run-8_dwi"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }
