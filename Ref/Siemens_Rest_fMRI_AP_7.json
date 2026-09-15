@@ -53,7 +53,7 @@
 	"ReceiveCoilName": "HeadNeck_20",
 	"ReceiveCoilActiveElements": "HE1-4;NE1,2",
 	"PulseSequenceDetails": "%CustomerSeq%\\cmrr_mbep2d_bold",
-	"WipMemBlock": "bd4ce70b-60e2-43d2-a98b-836d57a72f21||Sequence: R016 ve11c/master r/e634e98; Dec 19 2017 11:00:25 by eja",
+	"WipMemBlock": "Sequence: R016 ve11c/master r/e634e98; Dec 19 2017 11:00:25 by eja",
 	"CoilCombinationMethod": "Sum of Squares",
 	"ConsistencyInfo": "N4_VE11C_LATEST_20160120",
 	"MatrixCoilMode": "SENSE",
@@ -136,5 +136,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["func","_acq-epfid2m3_dir-AP_run-7_bold"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260620"
+	"ConversionSoftwareVersion": "v1.0.20260819"
 }
