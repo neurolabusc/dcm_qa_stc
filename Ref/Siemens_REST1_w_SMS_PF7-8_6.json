@@ -75,7 +75,6 @@
 	"EffectiveEchoSpacing": 0.000640002,
 	"DerivedVendorReportedEchoSpacing": 0.000640002,
 	"AcquisitionDuration": 229.32,
-	"NumberOfKSpaceTrajectories": 1,
 	"TotalReadoutTime": 0.0403201,
 	"PixelBandwidth": 2298,
 	"DwellTime": 3.4e-06,
