@@ -32,7 +32,7 @@
 	"TablePosition": [
 		0,
 		0,
-		-0	],
+		0	],
 	"EchoTime": 0.09,
 	"RepetitionTime": 7.6,
 	"SpoilingState": true,
@@ -60,6 +60,7 @@
 	"MatrixCoilMode": "GRAPPA",
 	"PercentPhaseFOV": 100,
 	"PercentSampling": 100,
+	"PartialFourierDirection": "PHASE",
 	"PhaseEncodingSteps": 81,
 	"AcquisitionMatrixPE": 102,
 	"ReconMatrixPE": 102,
@@ -144,5 +145,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["dwi","_acq-epb0p2_dir-AP_run-2_dwi"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260620"
+	"ConversionSoftwareVersion": "v1.0.20261024"
 }
